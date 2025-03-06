@@ -1,0 +1,242 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f7f2;
+}
+
+/* TOP */
+.top {
+  display: flex;
+  height: 30vw;
+}
+
+/* TOP - AVATAR*/
+.top__avatar {
+  width: 30vw;
+  text-align: center;
+  align-items: center;
+  background-color: #d4efdf;
+}
+
+.top__avatar .top__avatar-image {
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 5vw 2vw 0 2vw;
+}
+
+.top__avatar-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TOP - DESCRIPTION*/
+.top__desc {
+  padding: 6vw 3vw;
+  width: 70vw;
+  text-align: left;
+  background-color: #555d50;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.top__desc h2 {
+  background-color: #555d50;
+  font-size: 4vw;
+  font-family: Arimo, sans-serif;
+  white-space: wrap;
+}
+
+.top__desc hr {
+  width: 30%;
+}
+
+.top__desc p {
+  background-color: #555d50;
+  font-size: 2vw;
+  font-family: DM Sans, sans-serif;
+  white-space: wrap;
+}
+
+/* BODY */
+.main {
+  display: flex;
+}
+.column-left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+/* BODY - LEFT*/
+
+.column-left__card {
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+  text-align: left;
+}
+
+/* PERSONAL INFORMATION*/
+.column-left #personal {
+  background-color: #d4efdf;
+}
+.column-left__card .column-left__personal {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  background-color: #d4efdf;
+  font-family: DM Sans, sans-serif;
+  text-align: left;
+  font-size: 1.5vw;
+}
+
+.column-left__personal p {
+  font-size: 1.5vw !important;
+}
+
+.column-left__personal a {
+  font-size: 1.5vw;
+}
+
+/* CERTIFICATIONS*/
+.column-left__card h4 {
+  font-size: 2.5vw;
+  font-family: Arimo, sans-serif;
+}
+
+.column-left__card .column-left__description {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5vw;
+  align-items: center;
+}
+
+.column-left__description p {
+  font-size: 1vw;
+  font-family: DM Sans, sans-serif;
+  white-space: wrap;
+  width: 70%;
+}
+
+.column-left__description .name {
+  font-weight: 800;
+  font-size: 2vw;
+}
+
+.column-left__description button {
+  font-size: 1vw;
+  font-family: DM Sans, sans-serif;
+  white-space: wrap;
+  font-weight: 800;
+  background-color: #555d50;
+  color: white;
+  border-radius: 5vw;
+  width: 30%;
+  padding: 2vw 0;
+}
+
+.column-left__card p {
+  font-size: 1.8vw;
+}
+
+/* SKILLS*/
+.column-left__card .column-left__skills {
+  list-style-position: inside;
+}
+
+.column-left__skills p {
+  font-weight: 700;
+  font-size: 2vw;
+}
+
+.column-left__skills ul {
+  padding: 1.5vw 0 1.5vw 1.5vw;
+  font-size: 1.5vw;
+  font-family: DM Sans, sans-serif;
+  white-space: wrap;
+}
+
+.column-left__skills ul li {
+  margin-bottom: 1vw;
+}
+
+/* BODY - RIGHT */
+.column-right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  font-family: DM Sans, sans-serif;
+  text-align: left;
+}
+
+.column-right .column-right__card {
+  display: flex;
+  flex-direction: column;
+  padding: 3vw;
+  font-size: 1.5vw;
+  gap: 2vw;
+}
+
+.column-right__card h4 {
+  font-size: 2.5vw;
+  font-family: Arimo, sans-serif;
+}
+
+/* EXPERIENCES*/
+
+.column-right__card .column-right__information {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  white-space: wrap;
+  font-size: 1.8vw;
+}
+
+.column-right__information .information__title {
+  font-weight: 800;
+  font-size: 2vw;
+}
+
+.column-right__information .information__desc {
+  margin-left: 1.2vw;
+}
+
+/* PROJECTS*/
+
+.column-right__card .column-right__project {
+  list-style-position: inside;
+}
+
+.column-right__project p {
+  font-size: 2vw;
+
+  font-weight: 800;
+}
+
+.column-right__project ul {
+  font-size: 1.8vw;
+  white-space: wrap;
+  margin: 1vw 0 0 2vw;
+}
+
+.column-right__project ul li {
+  margin-bottom: 2vw;
+}
+
+/* BOTTOM */
+.bottom {
+  padding: 1.7vw;
+  background-color: #555d50;
+}
